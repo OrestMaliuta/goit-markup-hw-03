@@ -1,0 +1,250 @@
+
+/*-------------------------------------------------header-------------------------------------------*/
+
+.logo-web {color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-studio {
+        color: #000000;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px; 
+}
+
+
+.link {
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+                color: #212121;
+}
+
+.link:hover , .link-footer:hover { color: #2196F3; }
+    
+a {text-decoration: none;}
+li {list-style: none;}
+    
+.mailto { 
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: #757575 
+}
+            
+.mailto:hover , .tel:hover , .footer-adress:hover{ color: #2196F3;}
+            
+
+.tel    { 
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+            
+                color: #757575;
+}
+
+
+/* -----------------------------------------------------------tittle------------------------------------------------------------ */
+.tittle-section {background: #2F303A;} 
+
+.tittle { 
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36; 
+            color: #ffffff; 
+}
+
+
+
+.tittle-button {
+        background-color: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px; 
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFFFF   
+}
+
+.tittle-button:hover { background-color :steelblue}
+
+/* ------------------------------------------------------------section-two------------------------------------------------------------- */
+.hide {
+    display: none;
+}
+.section-two  h3 { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.section-two p { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* ------------------------------------------------------------section-three------------------------------------------------------------- */
+
+.tittle-photo h2 { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+/* ------------------------------------------------------------section-four------------------------------------------------------------- */
+.team h2 { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team { background: #F5F4FA;}
+
+.team li { 
+    box-shadow: 
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    border-radius: 0px 0px 4px 4px; 
+    background-color: #FFFFFF;
+}
+
+.team h3  { 
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+.team p { 
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: #757575;
+        text-align: center;
+}
+/* ------------------------------------------------------------footer------------------------------------------------------------- */
+.footer { 
+    background-color: #2F303A;
+}
+.footer-adress { 
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.logo-studio-footer { color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.link-footer  { 
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6); 
+}
+
+.mailto-footer:hover , .tel-footer:hover { text-decoration: underline;}
+
+
+.button-filter { 
+        background: #F5F4FA;
+        border-radius: 4px; 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        border: none;
+        color: #212121;
+        
+}
+
+.cards { 
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.current { color: #2196F3;}
+
+.cards > a > h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121; 
+}
+
+.cards > a > p  { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.button-filter:hover {
+    background-color: #2196F3;  
+}
