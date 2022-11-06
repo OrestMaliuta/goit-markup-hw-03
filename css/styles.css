@@ -1,4 +1,5 @@
 
+
 /*-------------------------------------------------header-------------------------------------------*/
 
 .logo-web {color: #2196F3;
@@ -16,6 +17,9 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 31px; 
+        margin-top: 24px;
+        margin-bottom: 25px;
+        
 }
 
 
@@ -28,6 +32,7 @@
                 line-height: 1.14;
                 letter-spacing: 0.02em;
                 color: #212121;
+                
                 
                 
                 
@@ -262,8 +267,33 @@ h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
    padding: 0; 
  }
 
-.header , .nav-links , .link-contacts { display: flex;}
+.header , .nav-links , .link-contacts 
+{ 
+    display: flex;
+    
+}
 
 .nav-links li { margin-right: 50px ;}
+
 .nav-links .link-item:last-child {margin: 0px;}
+
 .link-contacts .link-item + .link-item { margin-left: 50px;}
+
+.header { margin-left: 215px;
+height: ;}
+
+.nav-links { margin-left: 93px;}
+
+.link-contacts
+{ 
+margin-right: 215px;
+margin-left: auto;
+}
+.link-contacts , .nav-links { 
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+
