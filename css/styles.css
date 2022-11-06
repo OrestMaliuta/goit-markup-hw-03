@@ -28,7 +28,11 @@
                 line-height: 1.14;
                 letter-spacing: 0.02em;
                 color: #212121;
+                
+                
+                
 }
+
 
 .link:hover , .link-footer:hover { color: #2196F3; }
     
@@ -43,10 +47,12 @@ li {list-style: none;}
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-            color: #757575 
+            color: #757575;
+            
+             
 }
             
-.mailto:hover , .tel:hover , .footer-adress:hover{ color: #2196F3;}
+.mailto:hover , .tel:hover , .footer-adress:hover { color: #2196F3;}
             
 
 .tel    { 
@@ -58,11 +64,13 @@ li {list-style: none;}
                 letter-spacing: 0.02em;
             
                 color: #757575;
+                
 }
 
 
 /* -----------------------------------------------------------tittle------------------------------------------------------------ */
-.tittle-section {background: #2F303A;} 
+.tittle-section {background: #2F303A;
+width: 1600px;} 
 
 .tittle { 
             font-family: 'Roboto';
@@ -70,7 +78,8 @@ li {list-style: none;}
             font-weight: 900;
             font-size: 44px;
             line-height: 1.36; 
-            color: #ffffff; 
+            color: #ffffff;
+             
 }
 
 
@@ -248,3 +257,13 @@ font-family: 'Roboto';
 .button-filter:hover {
     background-color: #2196F3;  
 }
+h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
+   margin: 0;
+   padding: 0; 
+ }
+
+.header , .nav-links , .link-contacts { display: flex;}
+
+.nav-links li { margin-right: 50px ;}
+.nav-links .link-item:last-child {margin: 0px;}
+.link-contacts .link-item + .link-item { margin-left: 50px;}
