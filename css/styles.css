@@ -75,7 +75,10 @@ li {list-style: none;}
 
 /* -----------------------------------------------------------tittle------------------------------------------------------------ */
 .tittle-section {background: #2F303A;
-width: 1600px;} 
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;} 
 
 .tittle { 
             font-family: 'Roboto';
@@ -84,6 +87,17 @@ width: 1600px;}
             font-size: 44px;
             line-height: 1.36; 
             color: #ffffff;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            
+            padding-top: 200px;
+            width: 696px;
+            height: 120px;
+            left: 452px;
+            top: 280px;
+          
+
              
 }
 
@@ -98,7 +112,17 @@ width: 1600px;}
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        color: #FFFFFF   
+        color: #FFFFFF; 
+        margin-left: 692px; 
+        margin-top: 150px;
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+
+
+    
+            
 }
 
 .tittle-button:hover { background-color :steelblue}
