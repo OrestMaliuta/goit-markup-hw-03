@@ -147,7 +147,17 @@ li {list-style: none;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-
+.section-two-flex { 
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 94px;
+    justify-content: center;
+}
+.section-two-flex li { 
+    width: 270px;
+    margin-left: 30px;
+}
 .section-two p { 
         font-family: 'Roboto';
         font-style: normal;
@@ -159,6 +169,17 @@ li {list-style: none;}
 }
 /* ------------------------------------------------------------section-three------------------------------------------------------------- */
 
+.tittle-photo ul { display: flex;
+    margin-top: 50px; 
+    justify-content: center;
+
+}
+.displayed { margin-left: 30px;
+    height: 294px;
+}
+.displayed-foto .displayed:first-child {
+    margin: 0px;
+}
 .tittle-photo h2 { 
         font-family: 'Roboto';
         font-style: normal;
@@ -167,6 +188,8 @@ li {list-style: none;}
         line-height: 1.16;
         letter-spacing: 0.03em;
         color: #212121;
+        text-align: center;
+        margin-top: 94px;
 }
 
 /* ------------------------------------------------------------section-four------------------------------------------------------------- */
@@ -178,19 +201,49 @@ li {list-style: none;}
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
-}
+    
+    text-align: center;
+        margin-top: 86px;
+        padding-top: 102px;
+    }
 
-.team { background: #F5F4FA;}
+
+.team { 
+        background: #F5F4FA;
+        height: 648px;
+}
 
 .team li { 
     box-shadow: 
-    0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 1px 3px rgba(0, 0, 0, ),
+    0px 1px 1px rgba(0, 0, 0, ),
+    0px 2px 1px rgba(0, 0, 0, );
     
-    border-radius: 0px 0px 4px 4px; 
+    
     background-color: #FFFFFF;
+        width: 270px;
+        height: 260px;
 }
+
+
+
+.our-team { 
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.team-card img { width: 270px;
+height: 260px;
+}
+.team-card { margin-left: 30px;}
+
+.our-team .team-card:first-child { margin: 0}
+
+
+
 
 .team h3  { 
 font-family: 'Roboto';
@@ -201,7 +254,15 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+    
+    padding-top: 30px;
+    background: #FFFFFF;
+
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
+
 .team p { 
     font-family: 'Roboto';
         font-style: normal;
@@ -211,11 +272,20 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
         color: #757575;
         text-align: center;
+        
+        padding-top: 10px;
+        background: #FFFFFF;
+        padding-bottom: 30px;
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
 /* ------------------------------------------------------------footer------------------------------------------------------------- */
 .footer { 
     background-color: #2F303A;
 }
+
+
 .footer-adress { 
     font-family: 'Roboto';
         font-style: normal;
@@ -225,13 +295,24 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
-.logo-studio-footer { color: #FFFFFF;
+.logo-studio-footer { 
+    color: #FFFFFF;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-left: 215px;
+    display: flex;
+    padding-top: 60px;
+}
+.link-footer-css { 
+    margin-left: 215px;
+    margin-top: 20px;
+    padding-bottom: 60px;
+   
+    
 }
 
 .link-footer  { 
@@ -242,6 +323,7 @@ font-family: 'Roboto';
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6); 
+            padding-top: 10px;
 }
 
 .mailto-footer:hover , .tel-footer:hover { text-decoration: underline;}
