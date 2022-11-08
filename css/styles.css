@@ -20,9 +20,9 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 31px; 
-        margin-top: 24px;
-        margin-bottom: 25px;
-        margin-left: 215px
+        
+        margin-right: 50px;
+        
 }
 
 
@@ -80,9 +80,8 @@ li {list-style: none;}
 .tittle-section {
     background: #2F303A;
     
-    height: 600px;
-    margin-right: 0;
-    top: 80px;} 
+    padding: 200px 0px;
+} 
 
 .tittle { 
             font-family: 'Roboto';
@@ -96,7 +95,7 @@ li {list-style: none;}
             margin-left: auto;
             margin-right: auto;
             
-            padding-top: 200px;
+        
           
 
              
@@ -121,6 +120,8 @@ li {list-style: none;}
             margin-left: auto;
             margin-right: auto;
             top: 430px;
+            
+            margin-top: 30px;
         
         
         
@@ -146,17 +147,16 @@ li {list-style: none;}
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding-bottom: 10px;
 }
 .section-two-flex { 
     display: flex;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-top: 94px;
+    
     justify-content: center;
 }
-.section-two-flex li { 
-    width: 270px;
-    margin-left: 30px;
+.section-two-flex li {
+    margin-left: 30px; 
+   
 }
 .section-two p { 
         font-family: 'Roboto';
@@ -169,17 +169,20 @@ li {list-style: none;}
 }
 /* ------------------------------------------------------------section-three------------------------------------------------------------- */
 
-.tittle-photo ul { display: flex;
-    margin-top: 50px; 
-    justify-content: center;
+.tittle-photo ul { 
 
 }
-.displayed { margin-left: 30px;
-    height: 294px;
-}
-.displayed-foto .displayed:first-child {
+.displayed { margin-right: 30px;}
+.displayed-foto .displayed:last-child {
     margin: 0px;
 }
+
+.displayed-foto   { display:flex;
+
+    justify-content: center;
+}
+
+
 .tittle-photo h2 { 
         font-family: 'Roboto';
         font-style: normal;
@@ -189,7 +192,8 @@ li {list-style: none;}
         letter-spacing: 0.03em;
         color: #212121;
         text-align: center;
-        margin-top: 94px;
+        padding-bottom: 50px;
+        
 }
 
 /* ------------------------------------------------------------section-four------------------------------------------------------------- */
@@ -201,10 +205,13 @@ li {list-style: none;}
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 50px;
+    padding-top: 102px;
+    
     
     text-align: center;
-        margin-top: 86px;
-        padding-top: 102px;
+        
+        
     }
 
 
@@ -229,20 +236,33 @@ li {list-style: none;}
 
 .our-team { 
     display: flex;
-    margin-top: 50px;
     justify-content: center;
-    margin-left: 215px;
-    margin-right: 215px;
+ 
 }
 
-.team-card img { width: 270px;
-height: 260px;
+.team-card img { 
+    display: block;
+    width: 270px;
+    height: 260px;
 }
+
 .team-card { margin-left: 30px;}
 
 .our-team .team-card:first-child { margin: 0}
 
+.h-and-p {background: #FFFFFF;
 
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; 
+    
+        background: #FFFFFF;
+        padding-bottom: 30px;
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+}
 
 
 .team h3  { 
@@ -256,11 +276,7 @@ font-family: 'Roboto';
     color: #212121;
     
     padding-top: 30px;
-    background: #FFFFFF;
-
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+ 
 }
 
 .team p { 
@@ -272,13 +288,8 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
         color: #757575;
         text-align: center;
-        
         padding-top: 10px;
-        background: #FFFFFF;
-        padding-bottom: 30px;
-    
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+      
 }
 /* ------------------------------------------------------------footer------------------------------------------------------------- */
 .footer { 
@@ -294,6 +305,7 @@ font-family: 'Roboto';
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        
 }
 .logo-studio-footer { 
     color: #FFFFFF;
@@ -303,27 +315,29 @@ font-family: 'Roboto';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-left: 215px;
+  
+  /*  margin-left: 215px;
     display: flex;
     padding-top: 60px;
+*/ 
 }
 .link-footer-css { 
-    margin-left: 215px;
-    margin-top: 20px;
-    padding-bottom: 60px;
-   
+  padding-top: 20px;
+    
+  
     
 }
 
+
 .link-footer  { 
-        font-family: 'Roboto';
+            font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6); 
-            padding-top: 10px;
+            padding: 9px 0px 0px 0px;
 }
 
 .mailto-footer:hover , .tel-footer:hover { text-decoration: underline;}
@@ -437,16 +451,16 @@ h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
 .header { ;
 height:  ;}
 
-.nav-links { margin-left: 93px;}
+.nav-links { margin:0 }
 
 .link-contacts
 { 
-margin-right: 215px;
-margin-left: auto;
+
 }
 .link-contacts , .nav-links { 
-    margin-top: 32px;
-    margin-bottom: 32px;
+    
+    margin-left: auto;
+    
 }
 
 
@@ -457,3 +471,35 @@ margin-left: auto;
     
     justify-content: center;
 }
+.one { padding: 32px;
+        margin-top: 0px !important;        
+}
+.conteiner {
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 94px;
+}
+.conteiner-two {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 94px;
+
+}
+
+
+.conteiner-three { width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 94px;}
+
+.conteiner-footer{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding: 40px 0px;}
