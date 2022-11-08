@@ -21,10 +21,10 @@
         font-size: 26px;
         line-height: 31px; 
         
-        margin-right: 50px;
+        margin-right: 94px;
         
 }
-
+.div-header { padding: 25px;}
 
 .link {
                 
@@ -35,6 +35,7 @@
                 line-height: 1.14;
                 letter-spacing: 0.02em;
                 color: #212121;
+                padding: 8px;
                 
                 
                 
@@ -56,6 +57,7 @@ li {list-style: none;}
             line-height: 1.14;
             letter-spacing: 0.02em;
             color: #757575;
+            padding: 8px;
             
              
 }
@@ -72,6 +74,7 @@ li {list-style: none;}
                 letter-spacing: 0.02em;
             
                 color: #757575;
+                padding: 8px;
                 
 }
 
@@ -115,22 +118,22 @@ li {list-style: none;}
         color: #FFFFFF; 
 
             display: block;
-            width: 216px;
-            height: 50px;
+            
+            padding: 10px 32px 10px 32px;
             margin-left: auto;
             margin-right: auto;
-            top: 430px;
+            
             
             margin-top: 30px;
         
         
-        
-       
-       
+}
 
-
+.section { 
     
-            
+    
+   padding-top: 94px;
+   
 }
 
 .tittle-button:hover { background-color :steelblue}
@@ -155,9 +158,11 @@ li {list-style: none;}
     justify-content: center;
 }
 .section-two-flex li {
-    margin-left: 30px; 
+    margin-left: 30px;
+    width: 270px; 
    
 }
+.section-two-flex li:first-child { margin: 0;}
 .section-two p { 
         font-family: 'Roboto';
         font-style: normal;
@@ -178,7 +183,7 @@ li {list-style: none;}
 }
 
 .displayed-foto   { display:flex;
-
+    padding-bottom: 94px;
     justify-content: center;
 }
 
@@ -205,62 +210,62 @@ li {list-style: none;}
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
-    padding-top: 102px;
     
-    
-    text-align: center;
-        
-        
+    text-align: center;  
+    padding-top: 94px;
     }
 
 
 .team { 
+        background: #F5F4FA ;
+         width: auto;
+         height: auto;
         background: #F5F4FA;
         height: 648px;
 }
 
 .team li { 
-    box-shadow: 
-    0px 1px 3px rgba(0, 0, 0, ),
-    0px 1px 1px rgba(0, 0, 0, ),
-    0px 2px 1px rgba(0, 0, 0, );
+        box-shadow: 
+        0px 1px 3px rgba(0, 0, 0, ),
+        0px 1px 1px rgba(0, 0, 0, ),
+        0px 2px 1px rgba(0, 0, 0, );
     
     
-    background-color: #FFFFFF;
-        width: 270px;
-        height: 260px;
+        background-color: #FFFFFF;
+        
 }
 
 
-
-.our-team { 
+.conteiner-three 
+.our-team {
     display: flex;
     justify-content: center;
- 
+    margin-top: 50px;
+
 }
 
 .team-card img { 
     display: block;
     width: 270px;
     height: 260px;
+    background: #F5F4FA;
 }
 
 .team-card { margin-left: 30px;}
 
 .our-team .team-card:first-child { margin: 0}
 
-.h-and-p {background: #FFFFFF;
+.div-team-card {background: #FFFFFF;
 
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px; 
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px; 
     
         background: #FFFFFF;
         padding-bottom: 30px;
+        margin-top: 30px;
     
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+        
 
 }
 
@@ -274,8 +279,9 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+    padding-bottom: 10px;
     
-    padding-top: 30px;
+    
  
 }
 
@@ -288,12 +294,13 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
         color: #757575;
         text-align: center;
-        padding-top: 10px;
+        
       
 }
 /* ------------------------------------------------------------footer------------------------------------------------------------- */
 .footer { 
     background-color: #2F303A;
+    
 }
 
 
@@ -315,18 +322,17 @@ font-family: 'Roboto';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-  
-  /*  margin-left: 215px;
-    display: flex;
-    padding-top: 60px;
-*/ 
+    margin-bottom: 20px;
+    display: block;
+
 }
-.link-footer-css { 
-  padding-top: 20px;
-    
+.link-footer-css li { 
   
     
+  padding-bottom: 9px;
+    
 }
+.link-footer-css li:last-child { padding: 0px;}
 
 
 .link-footer  { 
@@ -337,7 +343,7 @@ font-family: 'Roboto';
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6); 
-            padding: 9px 0px 0px 0px;
+            
 }
 
 .mailto-footer:hover , .tel-footer:hover { text-decoration: underline;}
@@ -402,6 +408,7 @@ font-family: 'Roboto';
 .main-flex { 
     display: flex;
     justify-content: center;}
+    
 .cards > a > h2 {
         font-family: 'Roboto';
         font-style: normal;
@@ -434,6 +441,11 @@ h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
    padding: 0; 
  }
 
+
+
+
+
+
 .header , .nav-links , .link-contacts 
 { 
     display: flex;
@@ -444,38 +456,31 @@ h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
 
 .nav-links .link-item:last-child {margin: 0px;}
 
-.link-contacts .link-item + .link-item { margin-left: 50px;}
+.link-contacts .link-item + .link-item { margin-left: 34px;}
 
 .header { ;
 height:  ;}
 
 .nav-links { margin:0 }
 
-.link-contacts
-{ 
 
-}
-.link-contacts , .nav-links { 
+.link-contacts , .nav-links {
     
     margin-left: auto;
     
 }
 
 
-.section-property {
-   
-}
-.one { padding: 32px;
-        margin-top: 0px !important;        
-}
+
+
 .conteiner {
     width: 1200px;
     display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    margin-top: 94px;
 }
+
 .conteiner-two {
     width: 1200px;
     margin-left: auto;
@@ -486,19 +491,14 @@ height:  ;}
 }
 
 
-.conteiner-three { width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    margin-top: 94px;}
 
 .conteiner-footer{
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
-padding: 40px 0px;}
+padding: 60px 0px 60px 0px ;}
 .conteiner-four { 
-width: 1230px;
+    width: 1230px;
 
 
     justify-content: center;
